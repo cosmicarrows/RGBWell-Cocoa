@@ -10,6 +10,8 @@
 		26F0537A209B7058000AAD0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F05379209B7058000AAD0E /* AppDelegate.swift */; };
 		26F0537C209B705B000AAD0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F0537B209B705B000AAD0E /* Assets.xcassets */; };
 		26F0537F209B705B000AAD0E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F0537D209B705B000AAD0E /* MainMenu.xib */; };
+		26F05388209B7296000AAD0E /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F05387209B7296000AAD0E /* MainWindowController.swift */; };
+		26F0538A209B734E000AAD0E /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F05389209B734E000AAD0E /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		26F0537E209B705B000AAD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		26F05380209B705B000AAD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26F05381209B705B000AAD0E /* RGBWell.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RGBWell.entitlements; sourceTree = "<group>"; };
+		26F05387209B7296000AAD0E /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		26F05389209B734E000AAD0E /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				26F0537D209B705B000AAD0E /* MainMenu.xib */,
 				26F05380209B705B000AAD0E /* Info.plist */,
 				26F05381209B705B000AAD0E /* RGBWell.entitlements */,
+				26F05387209B7296000AAD0E /* MainWindowController.swift */,
+				26F05389209B734E000AAD0E /* MainWindowController.xib */,
 			);
 			path = RGBWell;
 			sourceTree = "<group>";
@@ -119,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26F0537C209B705B000AAD0E /* Assets.xcassets in Resources */,
+				26F0538A209B734E000AAD0E /* MainWindowController.xib in Resources */,
 				26F0537F209B705B000AAD0E /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F05388209B7296000AAD0E /* MainWindowController.swift in Sources */,
 				26F0537A209B7058000AAD0E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
