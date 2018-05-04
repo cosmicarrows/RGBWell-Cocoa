@@ -15,8 +15,15 @@ class MainWindowController: NSWindowController {
     }
     
     @IBAction func adjustRed(sender: NSSlider) {
-        print("R slider's value is \(sender.integerValue)")
+        print("R slider's value is \(sender.floatValue)")
     }
     
+    @IBAction func adjustGreen(sender: NSSlider) {
+        print("G slider's value is \(sender.floatValue)")
+    }
+    
+    @IBAction func adjustBlue(sender: NSSlider) {
+        print("B slider's value is \(sender.floatValue)")
+    }
     
 }
