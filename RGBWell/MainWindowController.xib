@@ -7,6 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MainWindowController" customModule="RGBWell" customModuleProvider="target">
             <connections>
+                <outlet property="colorWell" destination="qQ1-ms-tbk" id="HDS-xK-Ibj"/>
                 <outlet property="window" destination="izF-Ne-Lpj" id="I69-Yy-S83"/>
             </connections>
         </customObject>
@@ -72,6 +73,11 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <colorWell fixedFrame="YES" enabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQ1-ms-tbk">
+                        <rect key="frame" x="20" y="20" width="261" height="230"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <color key="color" red="0.05813049898" green="0.055541899059999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </colorWell>
                 </subviews>
             </view>
             <point key="canvasLocation" x="148" y="131"/>
