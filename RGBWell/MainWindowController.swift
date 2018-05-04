@@ -10,5 +10,13 @@ import Cocoa
 
 class MainWindowController: NSWindowController {
     
+    override var windowNibName: NSNib.Name? {
+        return NSNib.Name("MainWindowController")
+    }
+    
+    @IBAction func adjustRed(sender: NSSlider) {
+        print("R slider's value is \(sender.integerValue)")
+    }
+    
     
 }
